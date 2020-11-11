@@ -62,7 +62,21 @@ exports.findOne = (req, res) => {
       });
     });
 };
+exports.findUsers = (req, res) => {
+  const iduser = req.params.iduser;
+  var condition = iduser ? { iduser: { [Op.like]: `%${iduser}%` } } : null;
 
+  posts.findAll({ where: {iduser: iduser} })
+    .then(data => {
+      res.send(data);
+    })
+    .catch(err => {
+      res.status(500).send({
+        message:
+          err.message || "Error al encontrar los posts."
+      });
+    });
+};
 exports.update = (req, res) => {
   const id = req.params.id;
 

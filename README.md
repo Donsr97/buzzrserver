@@ -20,19 +20,19 @@ Puntos importantes:
 4.- Basicamente toda la info es accesible. Cuenta con metodos para acceder de uno en uno o agarrar todos de una.
 Metodos:
 
-FindOne: Le das el ID y te devuelve el post/usuario con ese ID
+            FindOne: Le das el ID y te devuelve el post/usuario con ese ID
 
-Create: Hace un post con el objeto que le den
+            Create: Hace un post con el objeto que le den
 
-findAll: Regresa TODOS los usuarios/posts en la base de datos
+            findAll: Regresa TODOS los usuarios/posts en la base de datos
 
-FindUsers: (Este solo lo tiene los posts) regresa los posts con el ID del usuario
+            FindUsers: (Este solo lo tiene los posts) regresa los posts con el ID del usuario
 
-Update: Hace un PUT al objeto con el ID que se le de
+            Update: Hace un PUT al objeto con el ID que se le de
 
-Delete: Borra el objeto con el ID que se le de
+            Delete: Borra el objeto con el ID que se le de
 
-DeleteAll: Borra todos los posts o todos los usuarios
+            DeleteAll: Borra todos los posts o todos los usuarios
 
 
 Para iniciar/correr el server. 

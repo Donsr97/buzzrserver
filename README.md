@@ -11,4 +11,5 @@ Yo estuve simulando todo con XAMPP y POSTMAN, todos los metodos funcionan, aunqu
 
 Para iniciar/correr el server. 
 1.- npm install
+
 2.- node server.js

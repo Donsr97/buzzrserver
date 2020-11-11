@@ -18,6 +18,7 @@ Puntos importantes:
 3.- La tabla de post tiene ID (del post) ID del usuario que lo sube y el texto del post. La columna del ID de usuario no es una foreign key por lo mismo que les decía en el primer punto, no quiero que les aviente errores de restricciones y esas cosas.
 
 4.- Basicamente toda la info es accesible. Cuenta con metodos para acceder de uno en uno o agarrar todos de una.
+
 Metodos:
 
             FindOne: Le das el ID y te devuelve el post/usuario con ese ID

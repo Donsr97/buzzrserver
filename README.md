@@ -37,7 +37,8 @@ Metodos:
 
 
 Para iniciar/correr el server. 
-
+      0.- Revisen que tengan una base de datos con el nombre que viene en el archivo de configuración (app/config/db.config.js). Por default está como "testdb"
+      
       1.- npm install
 
       2.- node server.js
